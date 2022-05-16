@@ -1,0 +1,2 @@
+
+5855ced744063e4627e16867d6d45d5ad0191839	{"key":"make-fetch-happen:request-cache:https://registry.npmjs.org/uniq/-/uniq-1.0.1.tgz","integrity":"sha1-sxxa6CVIRKOoKBVBzisEuGWnNP8=","time":1652733381743,"size":2302,"metadata":{"url":"https://registry.npmjs.org/uniq/-/uniq-1.0.1.tgz","reqHeaders":{},"resHeaders":{"cache-control":"public, immutable, max-age=31557600","content-type":"application/octet-stream","date":"Mon, 16 May 2022 20:36:16 GMT","etag":"\"b7fd70b974406ccf0859667a6ff5cdcd\"","last-modified":"Sun, 27 May 2018 20:28:45 GMT","vary":"Accept-Encoding"}}}
