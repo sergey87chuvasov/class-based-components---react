@@ -3,11 +3,11 @@ import Customer from "./Customer";
 
 import styles from "./Customers.module.css";
 
-const DUMMY_CUSTOMERS = [
-  { id: "c1", name: "Дмитрий" },
-  { id: "c2", name: "Михаил" },
-  { id: "c3", name: "Ирина" },
-];
+// const DUMMY_CUSTOMERS = [
+//   { id: "c1", name: "Дмитрий" },
+//   { id: "c2", name: "Михаил" },
+//   { id: "c3", name: "Ирина" },
+// ];
 
 class Customers extends Component {
 
@@ -28,7 +28,7 @@ class Customers extends Component {
   render() {
     const customersList = (
           <ul>
-            {DUMMY_CUSTOMERS.map((customer) => (
+            {this.props.customers.map((customer) => (
               <Customer key={customer.id} name={customer.name} />
             ))}
           </ul>

@@ -1,9 +1,11 @@
-import Customers from "./components/Customers";
+// import Customers from "./components/Customers";
+import CustomerFilter from "./components/CustomerFilter";
 
 function App() {
   return (
     <div>
-      <Customers />
+      {/* <Customers /> */}
+      <CustomerFilter />
     </div>
   );
 }
